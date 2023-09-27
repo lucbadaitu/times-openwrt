@@ -40,11 +40,11 @@ Dán lệnh bên dưới để cài đặt tập lệnh times-openwrt
 
 Dùng wget:
 
-wget --no-check-certificate "https://raw.githubusercontent.com/phuonganh2601/times-openwrt/main/times-openwrt" -O /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+wget --no-check-certificate "https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt?token=GHSAT0AAAAAACIE4WK5AOZYXTSPOTIDJNCWZIUJMQQ" -O /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
 dùng curl:
 
 
-curl -sL https://raw.githubusercontent.com/phuonganh2601/times-openwrt/main/times-openwrt > /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+curl -sL https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt?token=GHSAT0AAAAAACIE4WK5AOZYXTSPOTIDJNCWZIUJMQQ > /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặc tại rc.local nếu ở trong terminal
 
 Ví dụ dùng mạng Viettel:
