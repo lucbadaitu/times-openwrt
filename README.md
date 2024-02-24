@@ -49,7 +49,7 @@ wget --no-check-certificate "https://raw.githubusercontent.com/lucbadaitu/times-
 dùng curl:
 ```
 
-curl -sL https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt > /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+curl -sL https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt > /etc/config/times-openwrt && chmod +x /etc/config/times-openwrt
 ```
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặc tại rc.local nếu ở trong terminal
@@ -57,7 +57,7 @@ Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup hoặ
 Ví dụ dùng mạng Viettel:
 ```
 
-/usr/bin/times-openwrt m.tv360.vn
+/etc/config/times-openwrt m.tv360.vn
 ```
 
 Nếu sử dụng crontab (kiểm tra kết nối cứ sau 1 giờ, sau đó khởi động lại vpn nếu không có kết nối), sao chép lệnh bên dưới vào LuCI -> System -> Schedule Tasks Ví dụ:
