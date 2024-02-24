@@ -43,7 +43,7 @@ Dán lệnh bên dưới để cài đặt tập lệnh times-openwrt
 
 Dùng wget:
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt" -O /usr/bin/times-openwrt && chmod +x /usr/bin/times-openwrt
+wget --no-check-certificate "https://raw.githubusercontent.com/lucbadaitu/times-openwrt/main/times-openwrt" -O /etc/config/times-openwrt && chmod +x /etc/config/times-openwrt
 ```
 
 dùng curl:
